@@ -54,8 +54,7 @@ line-height: 95px;
     text-align: center;
     justify-content: space-around;
     max-width: 1140px;
-    margin: 0 auto;
-    
+    margin: 0px auto;   
 }
 
 .discount-title{
@@ -80,4 +79,42 @@ padding-bottom: 16px;
 font-family: Inter;
 font-size: 48px;
 font-weight: 700;
+}
+
+
+/* Welcome Related Styles */
+
+.welcome-content{
+    text-align: left;
+    color: #fff;
+    background-image: url(../image/Vectorrr.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 140px;
+    margin-right: 140px;
+    width: 1320px;
+    height: 600px;
+    padding-top: 126px;
+    padding-left: 266px;
+}
+
+.heading{
+font-family: Merriweather;
+font-size: 64px;
+font-weight: 900;
+line-height: 88px; 
+letter-spacing:7px;
+}
+
+.welcome-descripton{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; 
+}
+
+.welcome-btn{
+    text-decoration: none;
 }
