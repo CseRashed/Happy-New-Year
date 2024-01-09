@@ -9,7 +9,9 @@
     background-image: url("../image/Banner\ Image.png");
     background-repeat: no-repeat;
     background-size: contain;
-    margin: 50px 140px;
+    margin-top: 50px;
+    margin-left: 140px;
+    margin-right: 140px;
     border-radius: 16px;
     width: 1600px;
     height: 7335px;
@@ -21,7 +23,6 @@
  height: 100vh;
  text-align: center;
  padding-top: 227px;
- padding-bottom: 227px;
  color: #fff;
  font-family: Merriweather;
 }
@@ -40,5 +41,43 @@ line-height: 95px;
  padding-left: 204px;
  padding-right: 204px;
  padding-top: 56px;
- padding-bottom:177px ;
+
 } 
+
+
+
+/* Discount Related Styles */
+
+.discount{
+    width: 1600px;
+    height: 7335px;
+    text-align: center;
+    justify-content: space-around;
+    max-width: 1140px;
+    margin: 0 auto;
+    
+}
+
+.discount-title{
+    color: #F00;
+font-family: Inter;
+font-size: 88px;
+font-weight: 700;
+padding-bottom: 48px;
+}
+
+.discount-description{
+    color: #F00;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+padding-bottom: 16px;
+}
+
+.discount-greeting{
+    color: #070211;
+
+font-family: Inter;
+font-size: 48px;
+font-weight: 700;
+}
